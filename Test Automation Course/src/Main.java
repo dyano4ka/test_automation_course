@@ -1,4 +1,5 @@
-/*public class Main {
+/* ENCAPSULAREA
+public class Main {
     public static void main(String[] args) {
         ContBancar myObj = new ContBancar();
         myObj.setNumarCont("Xl2343");
@@ -9,6 +10,7 @@
     }
  */
 
+/* MOSTENIREA - please edit!
 public class Main {
     public static void main(String[] args) {
         Vehicul myObj = new Vehicul();
@@ -19,4 +21,17 @@ public class Main {
 
     }
 }
+*/
 
+/* POLIMORFISM */
+class Main {
+    public static void main(String[] args) {
+        Animal myAnimal = new Animal();
+        Animal myPisica = new Pisica();
+        Animal myCiine = new Ciine();
+
+        myAnimal.emiteSunet();
+        myPisica.emiteSunet();
+        myCiine.emiteSunet();
+    }
+}
