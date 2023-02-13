@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         ContBancar myObj = new ContBancar();
-        myObj.numarCont = "46474L";
-        myObj.sold = "123";
+        myObj.setNumarCont("Xl2343");
+        myObj.setSold("12345");
 
-        System.out.println(myObj.numarCont);
-        System.out.println(myObj.sold);
+        System.out.println ("Numar Cont:"+ myObj.getnumarCont());
+        System.out.println("Sold:"+ myObj.getsold());
     }
 }
