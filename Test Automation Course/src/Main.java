@@ -10,20 +10,17 @@ public class Main {
     }
  */
 
-/* MOSTENIREA - please edit!
-public class Main {
-    public static void main(String[] args) {
-        Vehicul myObj = new Vehicul();
-        myObj.culoare = myObj.culoare;
-        myObj.nrRoti = myObj.nrRoti;
-        System.out.println("Culoarea:" + myObj.culoare);
-        System.out.println("Numar Roti:" + myObj.nrRoti);
+/* MOSTENIREA - please edit! */
 
+class Main {
+    public static void main(String[] args) {
+        Masina myMasinaRapida = new Masina();
+        myMasinaRapida.afiseazaDetaliiVehicul();
+        myMasinaRapida.getInfo();
     }
 }
-*/
 
-/* POLIMORFISM */
+/* POLIMORFISM
 class Main {
     public static void main(String[] args) {
         Animal myAnimal = new Animal();
@@ -35,3 +32,16 @@ class Main {
         myCiine.emiteSunet();
     }
 }
+ */
+
+/* ABSTRACTIA
+class Main {
+    public static void main(String[] args) {
+        Triunghi myTriunghi = new Triunghi();
+        Patrat myPatrat = new Patrat();
+        myTriunghi.calculArie();
+        myPatrat.calculArie();
+
+    }
+}
+ */

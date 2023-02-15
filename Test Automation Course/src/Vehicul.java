@@ -1,16 +1,16 @@
 public class Vehicul {
     protected String culoare = "Rosu";
     protected String nrRoti = "4";
+
+    String newline = System.lineSeparator();
     public void afiseazaDetaliiVehicul () {
-        System.out.println(culoare + nrRoti);
+        System.out.println("Culoarea:" + culoare + newline+ "Numar Roti:" + nrRoti);
     }
 }
 class Masina extends Vehicul {
     private String marca = "Ferrari";
-    public static void main(String[] args) {
-        Masina myMasinaRapida = new Masina();
-        myMasinaRapida.afiseazaDetaliiVehicul();
-        System.out.println(myMasinaRapida.culoare + " " + myMasinaRapida.marca);
+    public void getInfo () {
+        System.out.println("Marca:" + marca);
     }
 }
 
