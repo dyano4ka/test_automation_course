@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Test Automation Course.iml" filepath="$PROJECT_DIR$/Test Automation Course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topic2/topic2.iml" filepath="$PROJECT_DIR$/topic2/topic2.iml" />
     </modules>
   </component>
 </project>
